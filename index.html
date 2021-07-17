@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+    <div class="main-cont">
+        <div class="watch-cont">
+            <div class="icons">
+                <i class="fal fa-bars"></i>
+                <i class="fal fa-times"></i>
+            </div>
+            <p>Timer</p>
+            <h2 id="head">Stop Watch</h2>
+            <div class="watch">
+               <div>
+                <span id="seconds">00</span>
+                <span class="colon">:</span>
+                <span id="minutes">00</span>
+                <span class="colon">:</span>
+                <span id="hours">00</span>
+                <span class="colon">:</span>
+                <span id="days">00</span>
+               </div>
+                <div class="names">
+                    <span>secs</span>
+                    <span>mins</span>
+                    <span>hours</span>
+                    <span>days</span>
+                </div>
+            </div>
+           
+            <div class="btn">
+                <button id="start-btn" onclick="startStop()"><i class="fal fa-play"></i></button>
+                <!-- <button id="stop-btn" onclick="stop()">Stop</button> -->
+                <button id="reset-btn" onclick="reset()"><i class="fal fa-trash-alt"></i></button>
+            </div>
+        </div>
+
+    </div>
+    <!-- <script src="stopWatch.js"></script> -->
+    <script src="stopWatch.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,132 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    outline: none;
+}
+.main-cont{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#A7EBF4 ;
+
+}
+.watch-cont{
+    background-color: #02ACC3;
+    position: relative;
+    width: 600px;
+    height: 500px;
+    box-shadow: 0px 6px 30px #0e79b3;
+    border-radius: 15px;
+    padding: 20px;
+
+    
+}
+.watch{
+    position: absolute;
+    background-color: #E8F0F2;
+    top: 50%;
+    bottom: 50%;
+    width:110% ;
+    height: 40%;
+    left: -5%;
+    right: -5%;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    color: #053742;
+    border: 0.5px solid #c4c8c8;
+
+
+}
+#head{
+
+    font-size: 30px;
+    color: #E8F0F2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn{
+    position:absolute;
+    left: 35%;
+    width: 30%;
+    right: 35%;
+    bottom: 5%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.btn button{
+    border: 1px  #037EC2;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: #037EC2;
+    box-shadow: 0px 5px 20px #096292;
+    color: #E8F0F2;
+    outline: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+.icons {
+width: 92%;
+text-align :center;
+font-size: 20px;
+color: #E8F0F2;
+display: flex;
+padding: 20px;
+justify-content: space-between;
+position: relative;
+}
+.watch-cont p{
+    font-size: 20px;
+    color: #E8F0F2;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.colon{
+    color: rgb(161, 160, 160);
+   
+}
+
+.names{
+    font-size: 20px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10% ;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    color: rgb(161, 160, 160);
+}
+@media screen and (max-width: 650px) {
+    .watch-cont{
+       width: 285px;
+       height: 340px;
+      
+    }
+    .watch{
+        font-size: 40px;
+    }
+    .names{
+        font-size: 12px;
+    }
+    .btn button{
+        width: 40px;
+        height: 40px;
+        font-size: 12px;
+    }
+    #head{
+       font-size: 20px;
+    }
+    
+  }
